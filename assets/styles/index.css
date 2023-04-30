@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #161616;
+	margin: 0;
+}
+
+.wrapper {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.subtitle {
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.entryWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#entryTitle, #entryText {
+	height: 30px;
+	width: 380px;
+	font-size: 16px;
+}
+
+.postButton {
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.postButton:hover {
+	filter: drop-shadow(0 0 4px #074b83);
+	transition: 0.5s all;
+}
+
+.entryTitle {
+	margin-bottom: 5px;
+	font-size: 24px;
+	color: #074b83;
+}
+
+.entryText {
+	margin-bottom: 20px;
+}
